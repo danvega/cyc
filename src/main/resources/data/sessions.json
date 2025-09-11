@@ -14,870 +14,1957 @@
       ".NET",
       "Leadership",
       "AI"
+    ],
+    "rooms": [
+      "Red Room",
+      "Yellow Room",
+      "Blue Room",
+      "Pink Room",
+      "Orange Room",
+      "Purple Room"
+    ],
+    "sessions": [
+      {
+        "day": "2025-09-25",
+        "time": "08:00",
+        "duration": "1 hr",
+        "title": "Morning Connect",
+        "type": "Networking",
+        "room": "All Rooms",
+        "speakers": [],
+        "speaker_companies": [],
+        "track": []
+      },
+      {
+        "day": "2025-09-25",
+        "time": "09:00",
+        "duration": "1 hr",
+        "title": "Keynote",
+        "speakers": [
+          "Danny Thompson",
+          "Matt McDole"
+        ],
+        "speaker_companies": [
+          "This Dot Labs",
+          "Yum! Brands"
+        ],
+        "type": "Keynote",
+        "room": "All Rooms",
+        "track": []
+      },
+      {
+        "day": "2025-09-25",
+        "time": "10:00",
+        "duration": "1 hr",
+        "title": "Open Networking",
+        "type": "Networking",
+        "room": "All Rooms",
+        "speakers": [],
+        "speaker_companies": [],
+        "track": []
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Slots, Slots, Slots, Everybody!",
+        "speakers": [
+          "Abbey Perini"
+        ],
+        "speaker_companies": [
+          "Hygiena"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Building Inclusive Web Experiences: Web Accessibility in ReactJS",
+        "speakers": [
+          "Vishnu Ramineni"
+        ],
+        "speaker_companies": [
+          "Albertsons Companies"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Effective Testing Strategies for Optimization Models in Java",
+        "speakers": [
+          "Francisco Zenteno"
+        ],
+        "speaker_companies": [
+          "American Airlines"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Legacy to Cloud: Transforming Insurance Systems with .NET Microservices & Azure",
+        "speakers": [
+          "Manisha Ponugoti"
+        ],
+        "speaker_companies": [
+          "Oracle"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Mutation Testing",
+        "speakers": [
+          "Arjan Dedgjonaj"
+        ],
+        "speaker_companies": [
+          "Yum! Brands"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Beyond The Hype: Leading the Charge in Responsible AgentOps for Business Transformation",
+        "speakers": [
+          "Kierra Dotson"
+        ],
+        "speaker_companies": [
+          "The Data Bloq"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Know Your JS",
+        "speakers": [
+          "Chris DeMars"
+        ],
+        "speaker_companies": [
+          "TuxCare"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Need for Speed: How Modern JavaScript Frameworks Are Solving Web Performance",
+        "speakers": [
+          "Kaleb Garner"
+        ],
+        "speaker_companies": [
+          "HaloMD"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Break into full stack from Java",
+        "speakers": [
+          "Faye X"
+        ],
+        "speaker_companies": [
+          "Northern Trust Bank"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Modernize Your .NET Skills",
+        "speakers": [
+          "Tim Corey"
+        ],
+        "speaker_companies": [
+          "IAmTimCorey.com"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Convergence of AI, Cybersecurity, and Cloud Technologies: Shaping the Future of Enterprise IT",
+        "speakers": [
+          "Ramasankar Molleti"
+        ],
+        "speaker_companies": [
+          "Options Clearing Corporation"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Sireesha Chilakamarri"
+        ],
+        "speaker_companies": [
+          "AdMedia"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "12:00",
+        "duration": "1 hr",
+        "title": "Lunch",
+        "type": "Lunch",
+        "room": "All Rooms",
+        "speakers": [],
+        "speaker_companies": [],
+        "track": []
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "You Don't Know JSON: How to Grow From Syntax to Superpowers",
+        "speakers": [
+          "Lawrence Lockhart"
+        ],
+        "speaker_companies": [
+          "Beefree"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Hermes Frangoudis"
+        ],
+        "speaker_companies": [
+          "Agora"
+        ],
+        "track": [
+          "JavaScript",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Josh Long"
+        ],
+        "speaker_companies": [
+          "Broadcom"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "10 Reasons your Software Sucks! (and what to do about it)",
+        "speakers": [
+          "Caleb Jenkins"
+        ],
+        "speaker_companies": [
+          "Eliassen Group"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "Using React with InertiaJS - Making front end development FAST🚀",
+        "speakers": [
+          "Leah Thompson"
+        ],
+        "speaker_companies": [
+          "Laravel"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Katarinya Hughes"
+        ],
+        "speaker_companies": [
+          "Veracode"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "Building with Confidence: Mastering Feature Flags in React Applications",
+        "speakers": [
+          "Nnenna Ndukwe"
+        ],
+        "speaker_companies": [
+          "Qodo AI"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Dennis Ivy"
+        ],
+        "speaker_companies": [
+          "Appwrite"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "FinOps and Cloud Cost Optimization",
+        "speakers": [
+          "Aly Ibrahim"
+        ],
+        "speaker_companies": [
+          "Microsoft"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "C# Past, Present, and Future",
+        "speakers": [
+          "Ken Versaw"
+        ],
+        "speaker_companies": [
+          "Nelnet Business Solutions"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "Strategies for Mitigating Performance Interference in Cloud-Native Systems",
+        "speakers": [
+          "Jonathan Perry"
+        ],
+        "speaker_companies": [
+          "Unvariance"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Alexander Crettenand"
+        ],
+        "speaker_companies": [
+          "ADT"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "AI Assisted Coding: Navigating the Strengths, Challenges, and Future of Coding Assistants",
+        "speakers": [
+          "David Parry"
+        ],
+        "speaker_companies": [
+          "Qodo"
+        ],
+        "track": [
+          "JavaScript",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Goodbye, World; Hello, Battlesnake!",
+        "speakers": [
+          "Andrew MacLean"
+        ],
+        "speaker_companies": [
+          "Twilio"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Making You a Better Speaker with Spring AI",
+        "speakers": [
+          "Sergey Kryvets"
+        ],
+        "speaker_companies": [
+          "First United Bank"
+        ],
+        "track": [
+          "Java",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "plugin architectures in C#",
+        "speakers": [
+          "Nick Cosentino"
+        ],
+        "speaker_companies": [
+          "Microsoft"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Stop Hitting Yourself: How to Prevent Common Attacks to your Application",
+        "speakers": [
+          "Mike Arsenault"
+        ],
+        "speaker_companies": [
+          "Bank Of America"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Tracy Lee"
+        ],
+        "speaker_companies": [
+          "This Dot Labs"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Integrating Microsoft Fabric and Databricks for Modern Data Analytics",
+        "speakers": [
+          "Shaurya Agrawal"
+        ],
+        "speaker_companies": [
+          "Hoonartek"
+        ],
+        "track": [
+          "Cloud",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Abusing React Server Components as a tool for incremental rewrites",
+        "speakers": [
+          "Swizec Teller"
+        ],
+        "speaker_companies": [
+          "Plasmidsaurus"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Spring Boot Microservices Architecture: A Deep Dive",
+        "speakers": [
+          "Prathap Raghavan"
+        ],
+        "speaker_companies": [
+          "Prathap Raghavan"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Wait, What? C# Async-Await Explained",
+        "speakers": [
+          "Matthew Hess"
+        ],
+        "speaker_companies": [
+          "CG Infinity"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Structuring the Unstructured: Advanced Document Parsing for AI Workflows",
+        "speakers": [
+          "Cedric Clyburn"
+        ],
+        "speaker_companies": [
+          "Red Hat"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Think of the other guy",
+        "speakers": [
+          "Michael Leitz"
+        ],
+        "speaker_companies": [
+          "Warner Bros. Discovery"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "OAuth Gets You In, Zero Trust Keeps You Safe",
+        "speakers": [
+          "Nick Taylor"
+        ],
+        "speaker_companies": [
+          "Pomerium"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Designing APIs Both Humans and AI Love",
+        "speakers": [
+          "Allen Helton"
+        ],
+        "speaker_companies": [
+          "Momento"
+        ],
+        "track": ["AI"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Leveraging Quality Intelligence and AI to Improve the Quality of Java Applications",
+        "speakers": [
+          "Nate Custer"
+        ],
+        "speaker_companies": [
+          "TTV Global"
+        ],
+        "track": [
+          "Java",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Beyond Frontend and Backend: Defining the AI Layer",
+        "speakers": [
+          "Boston Cartwright"
+        ],
+        "speaker_companies": [
+          "Vasion"
+        ],
+        "track": [
+          "Cloud",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "The Superpower of Intentional Architecture",
+        "speakers": [
+          "Rob Ocel"
+        ],
+        "speaker_companies": [
+          "This Dot Labs"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Split-Second Leadership: Mastering Emotions Before They Master You",
+        "speakers": [
+          "Jeremy Barger"
+        ],
+        "speaker_companies": [
+          "ELITE Academy"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Breaking Bad: Cooking APIs with AWS Serverless Chemistry",
+        "speakers": [
+          "Rishab Kumar"
+        ],
+        "speaker_companies": [
+          "Twilio"
+        ],
+        "track": [
+          "Cloud",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Hypervelocity Engineering: The End of Slow Dev",
+        "speakers": [
+          "Michael Brown"
+        ],
+        "speaker_companies": [
+          "Synaptic Weave"
+        ],
+        "track": ["AI"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Testable Architecture: Keep 'em Separated",
+        "speakers": [
+          "Ted M. Young"
+        ],
+        "speaker_companies": [
+          "Spiral Learning, LLC"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Doing the Right Thing: Web Accessibility Tools for the Modern Dev",
+        "speakers": [
+          "Elder Yzunia"
+        ],
+        "speaker_companies": [
+          "iA"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "On Prem to Cloud Native",
+        "speakers": [
+          "David Strickland"
+        ],
+        "speaker_companies": [
+          "CG Infinity"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Cloud Enabled Event-Driven Architecture for Healthcare SaaS Solutions",
+        "speakers": [
+          "John Crighton"
+        ],
+        "speaker_companies": [
+          "Curantis Solutions"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Killing Hardcoded Secrets: Secure Test Automation with Vault and Cloud-Native Secrets Management",
+        "speakers": [
+          "Pradeepkumar Palanisamy"
+        ],
+        "speaker_companies": [
+          "Fidelity"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "From Vision to Impact: Leading Zero to One Projects in the Workplace",
+        "speakers": [
+          "Dona Maria Jose"
+        ],
+        "speaker_companies": [
+          "Slack"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Boost Java Application Efficiency on the Cloud and Slash Costs with GraalVM and Spring AOT",
+        "speakers": [
+          "Tanasin Vivitvorn"
+        ],
+        "speaker_companies": [
+          "Deloitte"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Open Source AI and Granite",
+        "speakers": [
+          "JJ Asghar"
+        ],
+        "speaker_companies": [
+          "IBM"
+        ],
+        "track": [
+          "Cloud",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "The Modern Full-Stack: Owning Your Deployment Pipeline",
+        "speakers": [
+          "Jerry Reghunadh"
+        ],
+        "speaker_companies": [
+          "DataNimbus"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "James Q. Quick"
+        ],
+        "speaker_companies": [
+          "Makeswift"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "Powering AI with your APIs: A Enterprise Architecture for MCP",
+        "speakers": [
+          "Amanda Martin"
+        ],
+        "speaker_companies": [
+          "Apollo GraphQL"
+        ],
+        "track": ["AI"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Diana Pham"
+        ],
+        "speaker_companies": [
+          "Vonage"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "Local to Live: Deploying your App to the Cloud",
+        "speakers": [
+          "Trey Clark"
+        ],
+        "speaker_companies": [
+          "University of North Texas"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "Automating Secure OIDC-Based Cross-Cloud Authentication",
+        "speakers": [
+          "Borko Djurkovic"
+        ],
+        "speaker_companies": [
+          "Self"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "Unifying Data for Data Applications with the Data Lakehouse",
+        "speakers": [
+          "Alex Merced"
+        ],
+        "speaker_companies": [
+          "Dremio"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-25",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "Cloud vs. Control: Saving (or Sinking) a Business by Deploying Global Applications w/ Local Hardware",
+        "speakers": [
+          "Reece Iriye"
+        ],
+        "speaker_companies": [
+          "Verizon"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "08:00",
+        "duration": "1 hr",
+        "title": "Morning Connect",
+        "type": "Networking",
+        "room": "All Rooms",
+        "speakers": [],
+        "speaker_companies": [],
+        "track": []
+      },
+      {
+        "day": "2025-09-26",
+        "time": "09:00",
+        "duration": "1 hr",
+        "title": "Keynote",
+        "speakers": [
+          "Aaron Francis"
+        ],
+        "speaker_companies": [
+          "Try Hard Studios"
+        ],
+        "type": "Keynote",
+        "room": "All Rooms",
+        "track": []
+      },
+      {
+        "day": "2025-09-26",
+        "time": "10:00",
+        "duration": "1 hr",
+        "title": "Open Networking",
+        "type": "Networking",
+        "room": "All Rooms",
+        "speakers": [],
+        "speaker_companies": [],
+        "track": []
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Blueprint for Architecting a Scalable Component Library",
+        "speakers": [
+          "Jasmine Vo"
+        ],
+        "speaker_companies": [
+          "Synchrony"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "From Concept to Code: Domain-Driven Design for .NET Business Applications",
+        "speakers": [
+          "Sachin Gupta"
+        ],
+        "speaker_companies": [
+          "CG Infinity Inc"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Building AI-Enabled Spring Applications with Model Context Protocol (MCP)",
+        "speakers": [
+          "Dan Vega"
+        ],
+        "speaker_companies": [
+          "Broadcom"
+        ],
+        "track": [
+          "Java",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "AI-Powered DevOps in Cloud App Modernization: Automating Deployments, Monitoring, and Resilience",
+        "speakers": [
+          "Akshay Mittal"
+        ],
+        "speaker_companies": [
+          "PayPal"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "Manage Complexity with Terraform: Tips and Tricks from the Trenches",
+        "speakers": [
+          "Justin Biard"
+        ],
+        "speaker_companies": [
+          "Oracle"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Stacy Haven"
+        ],
+        "speaker_companies": [
+          "SAP"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "MCP-UI: Where Intent Becomes Interface",
+        "speakers": [
+          "Rizel Scarlett"
+        ],
+        "speaker_companies": [
+          "Block"
+        ],
+        "track": [
+          "Cloud",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Migrating 600k+ Lines of Code from Flow to TypeScript",
+        "speakers": [
+          "Chris Griffing"
+        ],
+        "speaker_companies": [
+          "GitKraken"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Building Production-Ready Data Pipelines for AI/ML with Java and Apache Beam",
+        "speakers": [
+          "Srikanth Maru"
+        ],
+        "speaker_companies": [
+          "Cricut Inc"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "ADRs: Because Context Isn't Just for LLMs",
+        "speakers": [
+          "Israa Taha"
+        ],
+        "speaker_companies": [
+          "Freelance / Independent"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "The AI Teammate Is Here — Now What?",
+        "speakers": [
+          "Andrea Griffiths"
+        ],
+        "speaker_companies": [
+          "GitHub"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "11:30",
+        "duration": "25 min",
+        "title": "Embedded Leadership: A Guid to Leading from Within",
+        "speakers": [
+          "Marshall Burns"
+        ],
+        "speaker_companies": [
+          "Archetype Dynamics, Inc."
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "12:00",
+        "duration": "1 hr",
+        "title": "Lunch",
+        "type": "Lunch",
+        "room": "All Rooms",
+        "speakers": [],
+        "speaker_companies": [],
+        "track": []
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "Video AI in Your Browser with WebGPU",
+        "speakers": [
+          "Patrick Hulce"
+        ],
+        "speaker_companies": [
+          "Netflix"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "Ballerina in Action: Open-Source Innovation for Cloud-Native Integration",
+        "speakers": [
+          "Anupama Pathirage"
+        ],
+        "speaker_companies": [
+          "WSO2"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "AI-Enhanced Strangler Pattern: Cognitive Legacy System Transformation",
+        "speakers": [
+          "Soujanya Vummannagari"
+        ],
+        "speaker_companies": [
+          "GalaxE an Endava Company"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "Bring Your Applications to Life with 3D CSS Animations",
+        "speakers": [
+          "Sarah Shook"
+        ],
+        "speaker_companies": [
+          "Hunter Industries"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "Building a Handwriting Recognition System for the New York Times Crossword",
+        "speakers": [
+          "Shafik Quoraishee"
+        ],
+        "speaker_companies": [
+          "New York Times"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:00",
+        "duration": "25 min",
+        "title": "Radical Transparency: Leading Engineering with Openness Inside and Out",
+        "speakers": [
+          "Victor Lyuboslavsky"
+        ],
+        "speaker_companies": [
+          "Fleet Device Management"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "Agentic Fundamentals: How language models and code can communicate",
+        "speakers": [
+          "Jacob Orshalick"
+        ],
+        "speaker_companies": [
+          "Focus DEV Solutions"
+        ],
+        "track": [
+          "JavaScript",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "Beyond IaC: Bring your infrastructure to your app with sst",
+        "speakers": [
+          "Bas Steins"
+        ],
+        "speaker_companies": [
+          "Miltenyi Biotec"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "unit testing your API",
+        "speakers": [
+          "Andrew Smit"
+        ],
+        "speaker_companies": [
+          "Liberty Mutual Insurance"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Naveen Chatlapalli"
+        ],
+        "speaker_companies": [
+          "Ashling"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "Commit Secure AI: Embedding Security in Code, Pipelines, and Production",
+        "speakers": [
+          "Vasanth Mudavatu"
+        ],
+        "speaker_companies": [
+          "Dell"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "13:30",
+        "duration": "25 min",
+        "title": "Dynamic AI Architectures: Building Scalable, Real-World Solutions in the Cloud",
+        "speakers": [
+          "Samantha St-Louis"
+        ],
+        "speaker_companies": [
+          "CloudFirst AI"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Your First JavaScript AI Agent",
+        "speakers": [
+          "Charles Wood"
+        ],
+        "speaker_companies": [
+          "PrizePicks"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "JavaScript for the Rest of Us",
+        "speakers": [
+          "Jacob Daddario"
+        ],
+        "speaker_companies": [
+          "Venn Technology"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Harness Java's Unmatched Power with JAQ Stack: Accelerate Web Development for Enterprise-Scale",
+        "speakers": [
+          "Suren Konathala"
+        ],
+        "speaker_companies": [
+          "Capgemini"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Predicting the future (of equipment) using ML.NET",
+        "speakers": [
+          "Ron Dagdag"
+        ],
+        "speaker_companies": [
+          "7-Eleven"
+        ],
+        "track": [
+          ".NET",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "Building Accessible Components: Best Practices and Business Buy-In",
+        "speakers": [
+          "Wayne Jones"
+        ],
+        "speaker_companies": [
+          "Capital One"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:00",
+        "duration": "25 min",
+        "title": "AI-Powered Code Reviews with Node and Vercel AI SDK",
+        "speakers": [
+          "Raja Krishna"
+        ],
+        "speaker_companies": [
+          "Loop"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Writing Testable Code",
+        "speakers": [
+          "Bob Fornal"
+        ],
+        "speaker_companies": [
+          "Leading EDJE"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Leveling Up: Building Retro 2D Games with JavaScript and Phaser",
+        "speakers": [
+          "Jeremy Morgan"
+        ],
+        "speaker_companies": [
+          "KodeKloud"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Write Once, Run Confidently: A Guide to Building Production-Ready Apps with Spring Boot",
+        "speakers": [
+          "Joseph Evans"
+        ],
+        "speaker_companies": [
+          "Citi"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Enterprise-Ready Minimal APIs in .NET: Scaling Simplicity",
+        "speakers": [
+          "Bobby Davis, Jr."
+        ],
+        "speaker_companies": [
+          "Coder Foundry"
+        ],
+        "track": [".NET"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "Crazy Web Performance with Azure Static Web Apps",
+        "speakers": [
+          "Kevin Griffin"
+        ],
+        "speaker_companies": [
+          "Swift Kick"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "14:30",
+        "duration": "25 min",
+        "title": "The QA spectrum",
+        "speakers": [
+          "Angela Cortes"
+        ],
+        "speaker_companies": [
+          "The QA Network"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Playing with the Gamepad API: Using Game Controllers with JS",
+        "speakers": [
+          "Alvaro Montoro"
+        ],
+        "speaker_companies": [
+          "GM"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Demystifying deployments as a service",
+        "speakers": [
+          "Brian Morrison"
+        ],
+        "speaker_companies": [
+          "Clerk"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Kotlin and Compose WASM for the UI challenged",
+        "speakers": [
+          "Vishal Reddy"
+        ],
+        "speaker_companies": [
+          "Apex Capital Corp"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "From React to Angular: Making the Transition a Breeze",
+        "speakers": [
+          "Alex Johnson"
+        ],
+        "speaker_companies": [
+          "Sustainment"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Securing and Scaling AWS with Terraform, Vault, and Veeam: A Practical Guide",
+        "speakers": [
+          "Nick Guzmán"
+        ],
+        "speaker_companies": [
+          "Tuvu"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:00",
+        "duration": "25 min",
+        "title": "Mastering Large Language Models: Prompt Engineering for Precision and Performance",
+        "speakers": [
+          "Danielle Larregui"
+        ],
+        "speaker_companies": [
+          "Atlassian"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Mark Thompson"
+        ],
+        "speaker_companies": [
+          "Google"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "WAI-ARIA in React components: guidance and considerations",
+        "speakers": [
+          "Eleazar Hernandez"
+        ],
+        "speaker_companies": [
+          "834 Labs"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Architecting Financial Systems for the Future: Microservices and Event-Driven Paradigms at Scale",
+        "speakers": [
+          "Satyanarayana Purella"
+        ],
+        "speaker_companies": [
+          "Fifth Third Bank"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "Code, But Make It Cute",
+        "speakers": [
+          "Bree Hall"
+        ],
+        "speaker_companies": [
+          "Hubspot"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "K8s-Native ML in Healthcare: Production Spark, AWS & Container Orchestration at Scale",
+        "speakers": [
+          "Naveen Srikanth Pasupuleti"
+        ],
+        "speaker_companies": [
+          "Komodo Health"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "15:30",
+        "duration": "25 min",
+        "title": "The Hidden Struggles of React Server Components",
+        "speakers": [
+          "Avindra Fernando"
+        ],
+        "speaker_companies": [
+          "Taprobane Consulting, LLC"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Mike Chen"
+        ],
+        "speaker_companies": [
+          "Rippling"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Serving content on the web: from PHP to RSC—and beyond",
+        "speakers": [
+          "Adam Rackis"
+        ],
+        "speaker_companies": [
+          "Spotify"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Creative Coding 101: Create Algorithmic Art with Processing",
+        "speakers": [
+          "Robert Groves"
+        ],
+        "speaker_companies": [
+          "Self"
+        ],
+        "track": ["Java"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Simplifying Our Code with Vertical Slice Architecture",
+        "speakers": [
+          "Jeremy Miller"
+        ],
+        "speaker_companies": [
+          "JasperFx Software"
+        ],
+        "track": ["JavaScript"],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "Data Gone in 60 Seconds: A Serverless ETL Heist",
+        "speakers": [
+          "Paul Chin Jr."
+        ],
+        "speaker_companies": [
+          "Serverless Guru"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Orange Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:00",
+        "duration": "25 min",
+        "title": "SBOM adopatability in open source software scanning",
+        "speakers": [
+          "Anitha Dakamarri"
+        ],
+        "speaker_companies": [
+          "Donnelley Financial Solutions (DFIN)"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "Designing Secure, Compliant, and Scalable Test Data Pipelines for Enterprise DevOps",
+        "speakers": [
+          "Arfi Siddik Mollashaik"
+        ],
+        "speaker_companies": [
+          "Securiti"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Red Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Julian Macagno"
+        ],
+        "speaker_companies": [
+          "Docusign"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Yellow Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "Suresh A M"
+        ],
+        "speaker_companies": [
+          "Hitachi"
+        ],
+        "track": ["Cloud"],
+        "type": "Talk",
+        "room": "Blue Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "TBA",
+        "speakers": [
+          "David Edoh-Bedi"
+        ],
+        "speaker_companies": [
+          "Metronome"
+        ],
+        "track": [
+          "JavaScript",
+          "AI"
+        ],
+        "type": "Talk",
+        "room": "Pink Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "16:30",
+        "duration": "25 min",
+        "title": "How not to build a Startup",
+        "speakers": [
+          "Arun Prasad Jaganathan"
+        ],
+        "speaker_companies": [
+          "Jugl"
+        ],
+        "track": ["Leadership"],
+        "type": "Talk",
+        "room": "Purple Room"
+      },
+      {
+        "day": "2025-09-26",
+        "time": "17:00",
+        "duration": "30 min",
+        "title": "Closing Keynote",
+        "speakers": [
+          "Danny Thompson",
+          "Quincy Larson",
+          "Leon Noel"
+        ],
+        "speaker_companies": [
+          "CYC",
+          "freeCodeCamp",
+          "100Devs"
+        ],
+        "type": "Keynote",
+        "room": "All Rooms",
+        "track": []
+      }
     ]
-  },
-  "rooms": [
-    "Red Room",
-    "Yellow Room",
-    "Blue Room",
-    "Pink Room",
-    "Orange Room",
-    "Purple Room"
-  ],
-  "sessions": [
-    {
-      "day": "2025-09-25",
-      "time": "08:00",
-      "duration": "1 hr",
-      "title": "Morning Connect",
-      "type": "Networking",
-      "room": "All Rooms"
-    },
-    {
-      "day": "2025-09-25",
-      "time": "09:00",
-      "duration": "1 hr",
-      "title": "Keynote",
-      "speakers": [
-        "Danny Thompson",
-        "Matt McDole"
-      ],
-      "speaker_companies": [
-        "This Dot Labs",
-        "Yum! Brands"
-      ],
-      "type": "Keynote",
-      "room": "All Rooms"
-    },
-    {
-      "day": "2025-09-25",
-      "time": "10:00",
-      "duration": "1 hr",
-      "title": "Open Networking",
-      "type": "Networking",
-      "room": "All Rooms"
-    },
-    {
-      "day": "2025-09-25",
-      "time": "11:00",
-      "duration": "25 min",
-      "title": "Slots, Slots, Slots, Everybody!",
-      "speakers": [
-        "Abbey Perini"
-      ],
-      "speaker_companies": [
-        "Hygiena"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-25",
-      "time": "11:00",
-      "duration": "25 min",
-      "title": "Building Inclusive Web Experiences: Web Accessibility in ReactJS",
-      "speakers": [
-        "Vishnu Ramineni"
-      ],
-      "speaker_companies": [
-        "Albertsons Companies"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-25",
-      "time": "11:00",
-      "duration": "25 min",
-      "title": "Effective Testing Strategies for Optimization Models in Java",
-      "speakers": [
-        "Francisco Zenteno"
-      ],
-      "speaker_companies": [
-        "American Airlines"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "11:30",
-      "duration": "25 min",
-      "title": "ADRs: Because Context Isn't Just for LLMs",
-      "speakers": [
-        "Israa Taha"
-      ],
-      "speaker_companies": [
-        "Freelance / Independent"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "11:30",
-      "duration": "25 min",
-      "title": "The AI Teammate Is Here — Now What?",
-      "speakers": [
-        "Andrea Griffiths"
-      ],
-      "speaker_companies": [
-        "GitHub"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "11:30",
-      "duration": "25 min",
-      "title": "Embedded Leadership: A Guid to Leading from Within",
-      "speakers": [
-        "Marshall Burns"
-      ],
-      "speaker_companies": [
-        "Archetype Dynamics, Inc."
-      ],
-      "track": "Leadership",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "12:00",
-      "duration": "1 hr",
-      "title": "Lunch",
-      "type": "Break",
-      "room": "All Rooms"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:00",
-      "duration": "25 min",
-      "title": "Video AI in Your Browser with WebGPU",
-      "speakers": [
-        "Patrick Hulce"
-      ],
-      "speaker_companies": [
-        "Netflix"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:00",
-      "duration": "25 min",
-      "title": "Ballerina in Action: Open-Source Innovation for Cloud-Native Integration",
-      "speakers": [
-        "Anupama Pathirage"
-      ],
-      "speaker_companies": [
-        "WSO2"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:00",
-      "duration": "25 min",
-      "title": "AI-Enhanced Strangler Pattern: Cognitive Legacy System Transformation",
-      "speakers": [
-        "Soujanya Vummannagari"
-      ],
-      "speaker_companies": [
-        "GalaxE an Endava Company"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:00",
-      "duration": "25 min",
-      "title": "Bring Your Applications to Life with 3D CSS Animations",
-      "speakers": [
-        "Sarah Shook"
-      ],
-      "speaker_companies": [
-        "Hunter Industries"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:00",
-      "duration": "25 min",
-      "title": "Building a Handwriting Recognition System for the New York Times Crossword",
-      "speakers": [
-        "Shafik Quoraishee"
-      ],
-      "speaker_companies": [
-        "New York Times"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:00",
-      "duration": "25 min",
-      "title": "Radical Transparency: Leading Engineering with Openness Inside and Out",
-      "speakers": [
-        "Victor Lyuboslavsky"
-      ],
-      "speaker_companies": [
-        "Fleet Device Management"
-      ],
-      "track": "Leadership",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:30",
-      "duration": "25 min",
-      "title": "Agentic Fundamentals: How language models and code can communicate",
-      "speakers": [
-        "Jacob Orshalick"
-      ],
-      "speaker_companies": [
-        "Focus DEV Solutions"
-      ],
-      "track": "AI",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:30",
-      "duration": "25 min",
-      "title": "Beyond IaC: Bring your infrastructure to your app with sst",
-      "speakers": [
-        "Bas Steins"
-      ],
-      "speaker_companies": [
-        "Miltenyi Biotec"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:30",
-      "duration": "25 min",
-      "title": "unit testing your API",
-      "speakers": [
-        "Andrew Smit"
-      ],
-      "speaker_companies": [
-        "Liberty Mutual Insurance"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:30",
-      "duration": "25 min",
-      "title": "TBA",
-      "speakers": [
-        "Naveen Chatlapalli"
-      ],
-      "speaker_companies": [
-        "Ashling"
-      ],
-      "track": ".NET",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:30",
-      "duration": "25 min",
-      "title": "Commit Secure AI: Embedding Security in Code, Pipelines, and Production",
-      "speakers": [
-        "Vasanth Mudavatu"
-      ],
-      "speaker_companies": [
-        "Dell"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "13:30",
-      "duration": "25 min",
-      "title": "Dynamic AI Architectures: Building Scalable, Real-World Solutions in the Cloud",
-      "speakers": [
-        "Samantha St-Louis"
-      ],
-      "speaker_companies": [
-        "CloudFirst AI"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:00",
-      "duration": "25 min",
-      "title": "Your First JavaScript AI Agent",
-      "speakers": [
-        "Charles Wood"
-      ],
-      "speaker_companies": [
-        "PrizePicks"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:00",
-      "duration": "25 min",
-      "title": "JavaScript for the Rest of Us",
-      "speakers": [
-        "Jacob Daddario"
-      ],
-      "speaker_companies": [
-        "Venn Technology"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:00",
-      "duration": "25 min",
-      "title": "Harness Java's Unmatched Power with JAQ Stack: Accelerate Web Development for Enterprise-Scale",
-      "speakers": [
-        "Suren Konathala"
-      ],
-      "speaker_companies": [
-        "Capgemini"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:00",
-      "duration": "25 min",
-      "title": "Predicting the future (of equipment) using ML.NET",
-      "speakers": [
-        "Ron Dagdag"
-      ],
-      "speaker_companies": [
-        "7-Eleven"
-      ],
-      "track": "AI",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:00",
-      "duration": "25 min",
-      "title": "Building Accessible Components: Best Practices and Business Buy-In",
-      "speakers": [
-        "Wayne Jones"
-      ],
-      "speaker_companies": [
-        "Capital One"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:00",
-      "duration": "25 min",
-      "title": "AI-Powered Code Reviews with Node and Vercel AI SDK",
-      "speakers": [
-        "Raja Krishna"
-      ],
-      "speaker_companies": [
-        "Loop"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:30",
-      "duration": "25 min",
-      "title": "Writing Testable Code",
-      "speakers": [
-        "Bob Fornal"
-      ],
-      "speaker_companies": [
-        "Leading EDJE"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:30",
-      "duration": "25 min",
-      "title": "Leveling Up: Building Retro 2D Games with JavaScript and Phaser",
-      "speakers": [
-        "Jeremy Morgan"
-      ],
-      "speaker_companies": [
-        "KodeKloud"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:30",
-      "duration": "25 min",
-      "title": "Write Once, Run Confidently: A Guide to Building Production-Ready Apps with Spring Boot",
-      "speakers": [
-        "Joseph Evans"
-      ],
-      "speaker_companies": [
-        "Citi"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:30",
-      "duration": "25 min",
-      "title": "Enterprise-Ready Minimal APIs in .NET: Scaling Simplicity",
-      "speakers": [
-        "Bobby Davis, Jr."
-      ],
-      "speaker_companies": [
-        "Coder Foundry"
-      ],
-      "track": ".NET",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:30",
-      "duration": "25 min",
-      "title": "Crazy Web Performance with Azure Static Web Apps",
-      "speakers": [
-        "Kevin Griffin"
-      ],
-      "speaker_companies": [
-        "Swift Kick"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "14:30",
-      "duration": "25 min",
-      "title": "The QA spectrum",
-      "speakers": [
-        "Angela Cortes"
-      ],
-      "speaker_companies": [
-        "The QA Network"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:00",
-      "duration": "25 min",
-      "title": "Playing with the Gamepad API: Using Game Controllers with JS",
-      "speakers": [
-        "Alvaro Montoro"
-      ],
-      "speaker_companies": [
-        "GM"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:00",
-      "duration": "25 min",
-      "title": "Demystifying deployments as a service",
-      "speakers": [
-        "Brian Morrison"
-      ],
-      "speaker_companies": [
-        "Clerk"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:00",
-      "duration": "25 min",
-      "title": "Kotlin and Compose WASM for the UI challenged",
-      "speakers": [
-        "Vishal Reddy"
-      ],
-      "speaker_companies": [
-        "Apex Capital Corp"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:00",
-      "duration": "25 min",
-      "title": "From React to Angular: Making the Transition a Breeze",
-      "speakers": [
-        "Alex Johnson"
-      ],
-      "speaker_companies": [
-        "Sustainment"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:00",
-      "duration": "25 min",
-      "title": "Securing and Scaling AWS with Terraform, Vault, and Veeam: A Practical Guide",
-      "speakers": [
-        "Nick Guzmán"
-      ],
-      "speaker_companies": [
-        "Tuvu"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:00",
-      "duration": "25 min",
-      "title": "Mastering Large Language Models: Prompt Engineering for Precision and Performance",
-      "speakers": [
-        "Danielle Larregui"
-      ],
-      "speaker_companies": [
-        "Atlassian"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:30",
-      "duration": "25 min",
-      "title": "TBA",
-      "speakers": [
-        "Mark Thompson"
-      ],
-      "speaker_companies": [
-        "Google"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:30",
-      "duration": "25 min",
-      "title": "WAI-ARIA in React components: guidance and considerations",
-      "speakers": [
-        "Eleazar Hernandez"
-      ],
-      "speaker_companies": [
-        "834 Labs"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:30",
-      "duration": "25 min",
-      "title": "Architecting Financial Systems for the Future: Microservices and Event-Driven Paradigms at Scale",
-      "speakers": [
-        "Satyanarayana Purella"
-      ],
-      "speaker_companies": [
-        "Fifth Third Bank"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:30",
-      "duration": "25 min",
-      "title": "Code, But Make It Cute",
-      "speakers": [
-        "Bree Hall"
-      ],
-      "speaker_companies": [
-        "Hubspot"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:30",
-      "duration": "25 min",
-      "title": "K8s-Native ML in Healthcare: Production Spark, AWS & Container Orchestration at Scale",
-      "speakers": [
-        "Naveen Srikanth Pasupuleti"
-      ],
-      "speaker_companies": [
-        "Komodo Health"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "15:30",
-      "duration": "25 min",
-      "title": "The Hidden Struggles of React Server Components",
-      "speakers": [
-        "Avindra Fernando"
-      ],
-      "speaker_companies": [
-        "Taprobane Consulting, LLC"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:00",
-      "duration": "25 min",
-      "title": "TBA",
-      "speakers": [
-        "Mike Chen"
-      ],
-      "speaker_companies": [
-        "Rippling"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:00",
-      "duration": "25 min",
-      "title": "Serving content on the web: from PHP to RSC—and beyond",
-      "speakers": [
-        "Adam Rackis"
-      ],
-      "speaker_companies": [
-        "Spotify"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:00",
-      "duration": "25 min",
-      "title": "Creative Coding 101: Create Algorithmic Art with Processing",
-      "speakers": [
-        "Robert Groves"
-      ],
-      "speaker_companies": [
-        "Self"
-      ],
-      "track": "Java",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:00",
-      "duration": "25 min",
-      "title": "Simplifying Our Code with Vertical Slice Architecture",
-      "speakers": [
-        "Jeremy Miller"
-      ],
-      "speaker_companies": [
-        "JasperFx Software"
-      ],
-      "track": "JavaScript",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:00",
-      "duration": "25 min",
-      "title": "Data Gone in 60 Seconds: A Serverless ETL Heist",
-      "speakers": [
-        "Paul Chin Jr."
-      ],
-      "speaker_companies": [
-        "Serverless Guru"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:00",
-      "duration": "25 min",
-      "title": "SBOM adopatability in open source software scanning",
-      "speakers": [
-        "Anitha Dakamarri"
-      ],
-      "speaker_companies": [
-        "Donnelley Financial Solutions (DFIN)"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Purple Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:30",
-      "duration": "25 min",
-      "title": "Designing Secure, Compliant, and Scalable Test Data Pipelines for Enterprise DevOps",
-      "speakers": [
-        "Arfi Siddik Mollashaik"
-      ],
-      "speaker_companies": [
-        "Securiti"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Red Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:30",
-      "duration": "25 min",
-      "title": "TBA",
-      "speakers": [
-        "Julian Macagno"
-      ],
-      "speaker_companies": [
-        "Docusign"
-      ],
-      "track": "Leadership",
-      "type": "Talk",
-      "room": "Yellow Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:30",
-      "duration": "25 min",
-      "title": "TBA",
-      "speakers": [
-        "Suresh A M"
-      ],
-      "speaker_companies": [
-        "Hitachi"
-      ],
-      "track": "Cloud",
-      "type": "Talk",
-      "room": "Blue Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:30",
-      "duration": "25 min",
-      "title": "TBA",
-      "speakers": [
-        "David Edoh-Bedi"
-      ],
-      "speaker_companies": [
-        "Metronome"
-      ],
-      "track": "AI",
-      "type": "Talk",
-      "room": "Pink Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "16:30",
-      "duration": "25 min",
-      "title": "How not to build a Startup",
-      "speakers": [
-        "Arun Prasad Jaganathan"
-      ],
-      "speaker_companies": [
-        "Jugl"
-      ],
-      "track": "Leadership",
-      "type": "Talk",
-      "room": "Orange Room"
-    },
-    {
-      "day": "2025-09-26",
-      "time": "17:00",
-      "duration": "30 min",
-      "title": "Closing Keynote",
-      "speakers": [
-        "Danny Thompson",
-        "Quincy Larson",
-        "Leon Noel"
-      ],
-      "speaker_companies": [
-        "CYC",
-        "freeCodeCamp",
-        "100Devs"
-      ],
-      "description": "Join Danny Thompson, Quincy Larson, and Leon Noel for an inspiring conclusion to the conference. Reflect on learnings, celebrate connections made, and get motivated for what's next in your coding journey.",
-      "type": "Keynote",
-      "room": "All Rooms"
-    }
-  ]
+  }
 }

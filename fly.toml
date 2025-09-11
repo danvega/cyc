@@ -1,0 +1,17 @@
+app = "your-app-name"   # must match your existing Fly app
+primary_region = "iad"  # Northern Virginia (U.S. East)
+
+[build]
+    builder = "paketobuildpacks/builder:base"
+    buildpacks = ["gcr.io/paketo-buildpacks/java"]
+
+[build.args]
+    BP_JVM_VERSION = "17"
+
+[http_service]
+    internal_port = 8080
+    force_https = true
+    auto_stop_machines = "stop"
+    auto_start_machines = true
+    min_machines_running = 0
+    processes = ["app"]

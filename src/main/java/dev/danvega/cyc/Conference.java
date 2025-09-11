@@ -7,6 +7,8 @@ public record Conference(
         int year,
         String[] dates,
         String location,
-        List<String> tracks
+        List<String> tracks,
+        List<String> rooms,
+        List<Session> sessions
 ) {
 }

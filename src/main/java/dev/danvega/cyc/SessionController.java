@@ -5,9 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springaicommunity.mcp.annotation.McpTool;
-import org.springframework.ai.tool.annotation.Tool;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,21 +12,27 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-@Component
-public class SessionTools {
+@RestController
+public class SessionController {
 
-    private static final Logger log = LoggerFactory.getLogger(SessionTools.class);
+    private static final Logger log = LoggerFactory.getLogger(dev.danvega.cyc.SessionTools.class);
     private Conference conference;
     private final ObjectMapper objectMapper;
 
-    public SessionTools(ObjectMapper objectMapper) {
+    public SessionController(ObjectMapper objectMapper) {
         this.objectMapper = objectMapper;
     }
 
-    @McpTool(name = "cyc-get-conference-data", description = "Get all conference data including sessions, tracks, rooms and conference details")
+    @GetMapping("/conference")
     public Conference getConferenceData() {
         return conference;
     }
+
+    @GetMapping("/sessions")
+    public List<Session> getSessions() {
+        return conference.sessions();
+    }
+
 
     @PostConstruct
     public void init() {
@@ -45,5 +48,6 @@ public class SessionTools {
             throw new RuntimeException("Failed to read JSON data", e);
         }
     }
+
 
 }

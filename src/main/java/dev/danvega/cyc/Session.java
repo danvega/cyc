@@ -2,6 +2,8 @@ package dev.danvega.cyc;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.List;
+
 public record Session(
         String day,
         String time,
@@ -12,7 +14,7 @@ public record Session(
         @JsonProperty("speaker_companies")
         String[] speakerCompanies,
         String room,
-        String track,
+        List<String> track,
         String description
 ) {
 }
