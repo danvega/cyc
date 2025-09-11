@@ -5,7 +5,7 @@ primary_region = "iad"
     builder = "paketobuildpacks/builder:base"
 
 [build.args]
-    BP_JVM_VERSION = "21"
+    BP_JVM_VERSION = "17"
 
 [vm]
     cpu_kind = "shared"
