@@ -1,4 +1,4 @@
-app = "cyc-mcp-server"
+app = "cyc-inwgra"
 primary_region = "iad"
 
 [build]
