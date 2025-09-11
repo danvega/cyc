@@ -3,7 +3,7 @@ primary_region = "iad"
 
 [build]
     builder = "paketobuildpacks/builder:base"
-    buildpacks = ["gcr.io/paketo-buildpacks/java"]
+    buildpacks = ["paketobuildpacks/java"]
 
 [build.args]
     BP_JVM_VERSION = "21"
