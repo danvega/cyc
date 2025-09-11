@@ -6,7 +6,6 @@ build:
       - echo "Building Spring Boot MCP Server with Cloud Native Buildpacks"
       - mvn spring-boot:build-image -Dspring-boot.build-image.imageName=cyc-mcp-server:latest
 run:
-  runtime-version: latest
   network:
     port: 8080
     env: PORT
@@ -14,4 +13,4 @@ run:
     - name: SPRING_PROFILES_ACTIVE
       value: production
     - name: SERVER_PORT
-      value: 8080
+      value: "8080"
