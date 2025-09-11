@@ -69,25 +69,18 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.13.0</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+					<release>${java.version}</release>
+				</configuration>
+			</plugin>
+			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<image>
-						<name>cyc-mcp-server:latest</name>
-						<env>
-							<SPRING_PROFILES_ACTIVE>production</SPRING_PROFILES_ACTIVE>
-							<SERVER_PORT>8080</SERVER_PORT>
-						</env>
-						<buildpacks>
-							<buildpack>paketo-buildpacks/ca-certificates</buildpack>
-							<buildpack>paketo-buildpacks/bellsoft-liberica</buildpack>
-							<buildpack>paketo-buildpacks/maven</buildpack>
-							<buildpack>paketo-buildpacks/executable-jar</buildpack>
-							<buildpack>paketo-buildpacks/dist-zip</buildpack>
-							<buildpack>paketo-buildpacks/spring-boot</buildpack>
-						</buildpacks>
-					</image>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
