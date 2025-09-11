@@ -10,7 +10,7 @@ primary_region = "iad"
 
 [vm]
     cpu_kind = "shared"
-    cpus = 1
+    cpus = 0.25
     memory_mb = 512
 
 [http_service]
