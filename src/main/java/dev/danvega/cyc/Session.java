@@ -14,7 +14,6 @@ public record Session(
         @JsonProperty("speaker_companies")
         String[] speakerCompanies,
         String room,
-        List<String> track,
-        String description
+        List<String> track
 ) {
 }

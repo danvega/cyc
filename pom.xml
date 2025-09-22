@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.danvega</groupId>
-	<artifactId>cyc</artifactId>
+	<artifactId>cyc-mcp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cyc</name>
 	<description>Demo project for Spring Boot</description>

@@ -1,11 +1,13 @@
 package dev.danvega.cyc;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springaicommunity.mcp.annotation.McpTool;
+import org.springaicommunity.mcp.annotation.McpToolParam;
 import org.springframework.ai.tool.annotation.Tool;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 @Component
 public class SessionTools {
@@ -29,6 +33,26 @@ public class SessionTools {
     @McpTool(name = "cyc-get-conference-data", description = "Get all conference data including sessions, tracks, rooms and conference details")
     public Conference getConferenceData() {
         return conference;
+    }
+
+    @McpTool(name = "cyc-sessions-by-date", description = "Returns the count of sessions by date")
+    public String countSessionsByDate() throws JsonProcessingException {
+        Map<String, Long> sessionsByDate = conference.sessions().stream()
+                .collect(Collectors.groupingBy(
+                        Session::day,
+                        Collectors.counting()
+                ));
+        return objectMapper.writeValueAsString(sessionsByDate);
+    }
+
+    @McpTool(name = "cyc-sessions-by-track", description = "Returns the count of sessions for a specific track")
+    public String countSessionsByTrack(@McpToolParam String track) throws JsonProcessingException {
+        long sessionCount = conference.sessions().stream()
+                .filter(session -> session.track() != null && session.track().contains(track))
+                .count();
+
+        Map<String, Object> result = Map.of("track", track, "count", sessionCount);
+        return objectMapper.writeValueAsString(result);
     }
 
     @PostConstruct
