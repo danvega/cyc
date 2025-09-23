@@ -35,24 +35,26 @@ public class SessionTools {
         return conference;
     }
 
+    @McpTool(name = "cyc-get-sessions", description = "Get a list of all sessions")
+    public List<Session> getSessions() {
+        return conference.sessions();
+    }
+
     @McpTool(name = "cyc-sessions-by-date", description = "Returns the count of sessions by date")
-    public String countSessionsByDate() throws JsonProcessingException {
-        Map<String, Long> sessionsByDate = conference.sessions().stream()
+    public Map<String,Long> countSessionsByDate() {
+        return conference.sessions().stream()
                 .collect(Collectors.groupingBy(
                         Session::day,
                         Collectors.counting()
                 ));
-        return objectMapper.writeValueAsString(sessionsByDate);
     }
 
     @McpTool(name = "cyc-sessions-by-track", description = "Returns the count of sessions for a specific track")
-    public String countSessionsByTrack(@McpToolParam String track) throws JsonProcessingException {
+    public Map<String,Object> countSessionsByTrack(@McpToolParam String track) {
         long sessionCount = conference.sessions().stream()
                 .filter(session -> session.track() != null && session.track().contains(track))
                 .count();
-
-        Map<String, Object> result = Map.of("track", track, "count", sessionCount);
-        return objectMapper.writeValueAsString(result);
+        return Map.of("track", track, "count", sessionCount);
     }
 
     @PostConstruct

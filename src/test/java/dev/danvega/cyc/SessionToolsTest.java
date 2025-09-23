@@ -1,7 +1,5 @@
 package dev.danvega.cyc;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -51,13 +49,8 @@ class SessionToolsTest {
     }
 
     @Test
-    void countSessionsByDateReturnsCorrectCounts() throws JsonProcessingException {
-        String sessionsByDateJson = sessionTools.countSessionsByDate();
-
-        assertThat(sessionsByDateJson).isNotNull();
-        assertThat(sessionsByDateJson).isNotBlank();
-
-        Map<String, Long> sessionsByDate = objectMapper.readValue(sessionsByDateJson, new TypeReference<Map<String, Long>>() {});
+    void countSessionsByDateReturnsCorrectCounts() {
+        Map<String, Long> sessionsByDate = sessionTools.countSessionsByDate();
 
         assertThat(sessionsByDate).isNotNull();
         assertThat(sessionsByDate).hasSize(2);
@@ -70,13 +63,8 @@ class SessionToolsTest {
     }
 
     @Test
-    void countSessionsByTrackReturnsCorrectCount() throws JsonProcessingException {
-        String sessionsByTrackJson = sessionTools.countSessionsByTrack("Java");
-
-        assertThat(sessionsByTrackJson).isNotNull();
-        assertThat(sessionsByTrackJson).isNotBlank();
-
-        Map<String, Object> sessionsByTrack = objectMapper.readValue(sessionsByTrackJson, new TypeReference<Map<String, Object>>() {});
+    void countSessionsByTrackReturnsCorrectCount() {
+        Map<String, Object> sessionsByTrack = sessionTools.countSessionsByTrack("Java");
 
         assertThat(sessionsByTrack).isNotNull();
         assertThat(sessionsByTrack).containsEntry("track", "Java");
