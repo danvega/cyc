@@ -7,6 +7,9 @@ primary_region = "iad"
 [build.args]
     BP_JVM_VERSION = "17"
 
+[env]
+    SPRING_PROFILES_ACTIVE = "http"
+
 [vm]
     cpu_kind = "shared"
     cpus = 1
