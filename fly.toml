@@ -1,4 +1,4 @@
-app = "cyc-inwgra"
+app = "dev2next"
 primary_region = "iad"
 
 [build]
